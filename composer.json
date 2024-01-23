@@ -1,0 +1,22 @@
+{
+    "name": "benycode/etcd-php",
+    "description": "PHP client for Etcd v3",
+    "keywords": ["etcdv3", "etcd", "etcd-client", "etcd-php"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Benycode"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenyCode\\ETCD\\": "src"
+        }
+    },
+	"config": {
+        "preferred-install": "dist"
+    }
+}
